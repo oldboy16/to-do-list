@@ -1,0 +1,24 @@
+ul,ol{
+    list-style-type: none;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero__btn{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 3px 10px;
+        border-radius: 3px;
+    }
+    .hero__btn:hover{
+       
+        box-shadow: 0 0 5px 0 black;
+    }
+}
+.hero__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
